@@ -1,0 +1,106 @@
+#-----------------------------------------------------------
+# Vivado v2016.4 (64-bit)
+# SW Build 1756540 on Mon Jan 23 19:11:23 MST 2017
+# IP Build 1755317 on Mon Jan 23 20:30:07 MST 2017
+# Start of session at: Tue May 23 17:11:05 2017
+# Process ID: 5440
+# Current directory: D:/Desktop/Computer Science year 2 sem II/VHDL programs/OneDrive-2017-05-03/mipsGYT
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent3504 D:\Desktop\Computer Science year 2 sem II\VHDL programs\OneDrive-2017-05-03\mipsGYT\test_env.xpr
+# Log file: D:/Desktop/Computer Science year 2 sem II/VHDL programs/OneDrive-2017-05-03/mipsGYT/vivado.log
+# Journal file: D:/Desktop/Computer Science year 2 sem II/VHDL programs/OneDrive-2017-05-03/mipsGYT\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {D:/Desktop/Computer Science year 2 sem II/VHDL programs/OneDrive-2017-05-03/mipsGYT/test_env.xpr}
+INFO: [ProjectBase 1-489] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience issues with IP, Block Designs, or files not being found, please consider moving the project to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter.
+Current project path is 'D:/Desktop/Computer Science year 2 sem II/VHDL programs/OneDrive-2017-05-03/mipsGYT'
+INFO: [Project 1-313] Project file moved from 'C:/Users/Student/Downloads/OneDrive-2017-05-03/mipsGYT' since last save.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Xilinx/Vivado/2016.4/data/ip'.
+open_project: Time (s): cpu = 00:00:08 ; elapsed = 00:00:08 . Memory (MB): peak = 700.574 ; gain = 92.293
+open_hw
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-2222] Launching hw_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+****** Xilinx hw_server v2016.4
+  **** Build date : Jan 23 2017-19:37:29
+    ** Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+
+
+disconnect_hw_server localhost:3121
+connect_hw_server -url localhost:3121
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+current_hw_target [get_hw_targets */xilinx_tcf/Digilent/210183A38A16A]
+set_property PARAM.FREQUENCY 15000000 [get_hw_targets */xilinx_tcf/Digilent/210183A38A16A]
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210183A38A16A
+set_property PROGRAM.FILE {D:/Desktop/Computer Science year 2 sem II/VHDL programs/OneDrive-2017-05-03/mipsGYT/test_env.runs/impl_1/test_env.bit} [lindex [get_hw_devices xc7a35t_0] 0]
+current_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+set_property PROBES.FILE {} [lindex [get_hw_devices xc7a35t_0] 0]
+set_property PROGRAM.FILE {D:/Desktop/Computer Science year 2 sem II/VHDL programs/OneDrive-2017-05-03/mipsGYT/test_env.runs/impl_1/test_env.bit} [lindex [get_hw_devices xc7a35t_0] 0]
+program_hw_devices [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+WARNING: [Labtoolstcl 44-130] No matching hw_ilas were found.
+WARNING: [Labtoolstcl 44-130] No matching hw_ilas were found.
+WARNING: [Labtoolstcl 44-130] No matching hw_ilas were found.
+WARNING: [Labtoolstcl 44-130] No matching hw_ilas were found.
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Tue May 23 17:28:21 2017] Launched synth_1...
+Run output will be captured here: D:/Desktop/Computer Science year 2 sem II/VHDL programs/OneDrive-2017-05-03/mipsGYT/test_env.runs/synth_1/runme.log
+[Tue May 23 17:28:21 2017] Launched impl_1...
+Run output will be captured here: D:/Desktop/Computer Science year 2 sem II/VHDL programs/OneDrive-2017-05-03/mipsGYT/test_env.runs/impl_1/runme.log
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Tue May 23 17:31:33 2017] Launched synth_1...
+Run output will be captured here: D:/Desktop/Computer Science year 2 sem II/VHDL programs/OneDrive-2017-05-03/mipsGYT/test_env.runs/synth_1/runme.log
+[Tue May 23 17:31:33 2017] Launched impl_1...
+Run output will be captured here: D:/Desktop/Computer Science year 2 sem II/VHDL programs/OneDrive-2017-05-03/mipsGYT/test_env.runs/impl_1/runme.log
+disconnect_hw_server localhost:3121
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+disconnect_hw_server localhost:3121
+connect_hw_server -url localhost:3121
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+current_hw_target [get_hw_targets */xilinx_tcf/Digilent/210183A38A16A]
+set_property PARAM.FREQUENCY 15000000 [get_hw_targets */xilinx_tcf/Digilent/210183A38A16A]
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210183A38A16A
+set_property PROGRAM.FILE {D:/Desktop/Computer Science year 2 sem II/VHDL programs/OneDrive-2017-05-03/mipsGYT/test_env.runs/impl_1/test_env.bit} [lindex [get_hw_devices xc7a35t_0] 0]
+current_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+set_property PROBES.FILE {} [lindex [get_hw_devices xc7a35t_0] 0]
+set_property PROGRAM.FILE {D:/Desktop/Computer Science year 2 sem II/VHDL programs/OneDrive-2017-05-03/mipsGYT/test_env.runs/impl_1/test_env.bit} [lindex [get_hw_devices xc7a35t_0] 0]
+program_hw_devices [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+WARNING: [Labtoolstcl 44-130] No matching hw_ilas were found.
+WARNING: [Labtoolstcl 44-130] No matching hw_ilas were found.
+WARNING: [Labtoolstcl 44-130] No matching hw_ilas were found.
+WARNING: [Labtoolstcl 44-130] No matching hw_ilas were found.
+exit
+INFO: [Common 17-206] Exiting Vivado at Tue May 23 17:41:25 2017...

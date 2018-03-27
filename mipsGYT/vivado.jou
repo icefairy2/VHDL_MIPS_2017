@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2016.4 (64-bit)
+# SW Build 1756540 on Mon Jan 23 19:11:23 MST 2017
+# IP Build 1755317 on Mon Jan 23 20:30:07 MST 2017
+# Start of session at: Wed May 24 21:46:10 2017
+# Process ID: 4100
+# Current directory: D:/Desktop/Computer Science year 2 sem II/VHDL programs/OneDrive-2017-05-03/mipsGYT
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent7296 D:\Desktop\Computer Science year 2 sem II\VHDL programs\OneDrive-2017-05-03\mipsGYT\test_env.xpr
+# Log file: D:/Desktop/Computer Science year 2 sem II/VHDL programs/OneDrive-2017-05-03/mipsGYT/vivado.log
+# Journal file: D:/Desktop/Computer Science year 2 sem II/VHDL programs/OneDrive-2017-05-03/mipsGYT\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {D:/Desktop/Computer Science year 2 sem II/VHDL programs/OneDrive-2017-05-03/mipsGYT/test_env.xpr}
+synth_design -rtl -name rtl_1

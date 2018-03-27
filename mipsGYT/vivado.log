@@ -1,0 +1,116 @@
+#-----------------------------------------------------------
+# Vivado v2016.4 (64-bit)
+# SW Build 1756540 on Mon Jan 23 19:11:23 MST 2017
+# IP Build 1755317 on Mon Jan 23 20:30:07 MST 2017
+# Start of session at: Wed May 24 21:46:10 2017
+# Process ID: 4100
+# Current directory: D:/Desktop/Computer Science year 2 sem II/VHDL programs/OneDrive-2017-05-03/mipsGYT
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent7296 D:\Desktop\Computer Science year 2 sem II\VHDL programs\OneDrive-2017-05-03\mipsGYT\test_env.xpr
+# Log file: D:/Desktop/Computer Science year 2 sem II/VHDL programs/OneDrive-2017-05-03/mipsGYT/vivado.log
+# Journal file: D:/Desktop/Computer Science year 2 sem II/VHDL programs/OneDrive-2017-05-03/mipsGYT\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {D:/Desktop/Computer Science year 2 sem II/VHDL programs/OneDrive-2017-05-03/mipsGYT/test_env.xpr}
+INFO: [ProjectBase 1-489] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience issues with IP, Block Designs, or files not being found, please consider moving the project to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter.
+Current project path is 'D:/Desktop/Computer Science year 2 sem II/VHDL programs/OneDrive-2017-05-03/mipsGYT'
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Xilinx/Vivado/2016.4/data/ip'.
+open_project: Time (s): cpu = 00:00:08 ; elapsed = 00:00:09 . Memory (MB): peak = 742.398 ; gain = 123.004
+synth_design -rtl -name rtl_1
+Command: synth_design -rtl -name rtl_1
+Starting synth_design
+Using part: xc7a35tcpg236-1
+Top: test_env
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:34 ; elapsed = 00:00:47 . Memory (MB): peak = 760.555 ; gain = 550.160
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'test_env' [D:/Desktop/Computer Science year 2 sem II/VHDL programs/OneDrive-2017-05-03/mipsGYT/test_env.srcs/sources_1/new/test_env.vhd:48]
+INFO: [Synth 8-3491] module 'monopulse' declared at 'D:/Desktop/Computer Science year 2 sem II/VHDL programs/OneDrive-2017-05-03/mipsGYT/test_env.srcs/sources_1/new/monopulse.vhd:36' bound to instance 'monop' of component 'monopulse' [D:/Desktop/Computer Science year 2 sem II/VHDL programs/OneDrive-2017-05-03/mipsGYT/test_env.srcs/sources_1/new/test_env.vhd:204]
+INFO: [Synth 8-638] synthesizing module 'monopulse' [D:/Desktop/Computer Science year 2 sem II/VHDL programs/OneDrive-2017-05-03/mipsGYT/test_env.srcs/sources_1/new/monopulse.vhd:42]
+INFO: [Synth 8-256] done synthesizing module 'monopulse' (1#1) [D:/Desktop/Computer Science year 2 sem II/VHDL programs/OneDrive-2017-05-03/mipsGYT/test_env.srcs/sources_1/new/monopulse.vhd:42]
+INFO: [Synth 8-3491] module 'ssd' declared at 'D:/Desktop/Computer Science year 2 sem II/VHDL programs/OneDrive-2017-05-03/mipsGYT/test_env.srcs/sources_1/new/ssd.vhd:36' bound to instance 'ssdunit' of component 'ssd' [D:/Desktop/Computer Science year 2 sem II/VHDL programs/OneDrive-2017-05-03/mipsGYT/test_env.srcs/sources_1/new/test_env.vhd:207]
+INFO: [Synth 8-638] synthesizing module 'ssd' [D:/Desktop/Computer Science year 2 sem II/VHDL programs/OneDrive-2017-05-03/mipsGYT/test_env.srcs/sources_1/new/ssd.vhd:43]
+INFO: [Synth 8-256] done synthesizing module 'ssd' (2#1) [D:/Desktop/Computer Science year 2 sem II/VHDL programs/OneDrive-2017-05-03/mipsGYT/test_env.srcs/sources_1/new/ssd.vhd:43]
+INFO: [Synth 8-3491] module 'tx_fsm' declared at 'D:/Desktop/Computer Science year 2 sem II/VHDL programs/OneDrive-2017-05-03/mipsGYT/test_env.srcs/sources_1/imports/OneDrive-2017-05-03/tx_fsm.vhd:36' bound to instance 'fsmTX' of component 'tx_fsm' [D:/Desktop/Computer Science year 2 sem II/VHDL programs/OneDrive-2017-05-03/mipsGYT/test_env.srcs/sources_1/new/test_env.vhd:212]
+INFO: [Synth 8-638] synthesizing module 'tx_fsm' [D:/Desktop/Computer Science year 2 sem II/VHDL programs/OneDrive-2017-05-03/mipsGYT/test_env.srcs/sources_1/imports/OneDrive-2017-05-03/tx_fsm.vhd:46]
+WARNING: [Synth 8-614] signal 'tx_data' is read in the process but is not in the sensitivity list [D:/Desktop/Computer Science year 2 sem II/VHDL programs/OneDrive-2017-05-03/mipsGYT/test_env.srcs/sources_1/imports/OneDrive-2017-05-03/tx_fsm.vhd:77]
+WARNING: [Synth 8-614] signal 'bit_cnt' is read in the process but is not in the sensitivity list [D:/Desktop/Computer Science year 2 sem II/VHDL programs/OneDrive-2017-05-03/mipsGYT/test_env.srcs/sources_1/imports/OneDrive-2017-05-03/tx_fsm.vhd:77]
+INFO: [Synth 8-256] done synthesizing module 'tx_fsm' (3#1) [D:/Desktop/Computer Science year 2 sem II/VHDL programs/OneDrive-2017-05-03/mipsGYT/test_env.srcs/sources_1/imports/OneDrive-2017-05-03/tx_fsm.vhd:46]
+INFO: [Synth 8-3491] module 'rx_fsm' declared at 'D:/Desktop/Computer Science year 2 sem II/VHDL programs/OneDrive-2017-05-03/mipsGYT/test_env.srcs/sources_1/new/rx_fsm.vhd:36' bound to instance 'fsmRX' of component 'rx_fsm' [D:/Desktop/Computer Science year 2 sem II/VHDL programs/OneDrive-2017-05-03/mipsGYT/test_env.srcs/sources_1/new/test_env.vhd:220]
+INFO: [Synth 8-638] synthesizing module 'rx_fsm' [D:/Desktop/Computer Science year 2 sem II/VHDL programs/OneDrive-2017-05-03/mipsGYT/test_env.srcs/sources_1/new/rx_fsm.vhd:45]
+WARNING: [Synth 8-3848] Net rx_data in module/entity rx_fsm does not have driver. [D:/Desktop/Computer Science year 2 sem II/VHDL programs/OneDrive-2017-05-03/mipsGYT/test_env.srcs/sources_1/new/rx_fsm.vhd:39]
+INFO: [Synth 8-256] done synthesizing module 'rx_fsm' (4#1) [D:/Desktop/Computer Science year 2 sem II/VHDL programs/OneDrive-2017-05-03/mipsGYT/test_env.srcs/sources_1/new/rx_fsm.vhd:45]
+WARNING: [Synth 8-614] signal 'rom_data' is read in the process but is not in the sensitivity list [D:/Desktop/Computer Science year 2 sem II/VHDL programs/OneDrive-2017-05-03/mipsGYT/test_env.srcs/sources_1/new/test_env.vhd:279]
+INFO: [Synth 8-3491] module 'reg_file' declared at 'D:/Desktop/Computer Science year 2 sem II/VHDL programs/OneDrive-2017-05-03/mipsGYT/test_env.srcs/sources_1/new/reg_file.vhd:36' bound to instance 'reg_file1' of component 'reg_file' [D:/Desktop/Computer Science year 2 sem II/VHDL programs/OneDrive-2017-05-03/mipsGYT/test_env.srcs/sources_1/new/test_env.vhd:308]
+INFO: [Synth 8-638] synthesizing module 'reg_file' [D:/Desktop/Computer Science year 2 sem II/VHDL programs/OneDrive-2017-05-03/mipsGYT/test_env.srcs/sources_1/new/reg_file.vhd:47]
+INFO: [Synth 8-256] done synthesizing module 'reg_file' (5#1) [D:/Desktop/Computer Science year 2 sem II/VHDL programs/OneDrive-2017-05-03/mipsGYT/test_env.srcs/sources_1/new/reg_file.vhd:47]
+WARNING: [Synth 8-614] signal 'rom_data' is read in the process but is not in the sensitivity list [D:/Desktop/Computer Science year 2 sem II/VHDL programs/OneDrive-2017-05-03/mipsGYT/test_env.srcs/sources_1/new/test_env.vhd:395]
+WARNING: [Synth 8-614] signal 'D1rom_data' is read in the process but is not in the sensitivity list [D:/Desktop/Computer Science year 2 sem II/VHDL programs/OneDrive-2017-05-03/mipsGYT/test_env.srcs/sources_1/new/test_env.vhd:395]
+WARNING: [Synth 8-614] signal 'count' is read in the process but is not in the sensitivity list [D:/Desktop/Computer Science year 2 sem II/VHDL programs/OneDrive-2017-05-03/mipsGYT/test_env.srcs/sources_1/new/test_env.vhd:395]
+WARNING: [Synth 8-614] signal 'reg_read1' is read in the process but is not in the sensitivity list [D:/Desktop/Computer Science year 2 sem II/VHDL programs/OneDrive-2017-05-03/mipsGYT/test_env.srcs/sources_1/new/test_env.vhd:395]
+WARNING: [Synth 8-614] signal 'D2reg_read1' is read in the process but is not in the sensitivity list [D:/Desktop/Computer Science year 2 sem II/VHDL programs/OneDrive-2017-05-03/mipsGYT/test_env.srcs/sources_1/new/test_env.vhd:395]
+WARNING: [Synth 8-614] signal 'ram_data' is read in the process but is not in the sensitivity list [D:/Desktop/Computer Science year 2 sem II/VHDL programs/OneDrive-2017-05-03/mipsGYT/test_env.srcs/sources_1/new/test_env.vhd:395]
+WARNING: [Synth 8-614] signal 'D4ram_data' is read in the process but is not in the sensitivity list [D:/Desktop/Computer Science year 2 sem II/VHDL programs/OneDrive-2017-05-03/mipsGYT/test_env.srcs/sources_1/new/test_env.vhd:395]
+WARNING: [Synth 8-614] signal 'rx_data' is read in the process but is not in the sensitivity list [D:/Desktop/Computer Science year 2 sem II/VHDL programs/OneDrive-2017-05-03/mipsGYT/test_env.srcs/sources_1/new/test_env.vhd:395]
+INFO: [Synth 8-256] done synthesizing module 'test_env' (6#1) [D:/Desktop/Computer Science year 2 sem II/VHDL programs/OneDrive-2017-05-03/mipsGYT/test_env.srcs/sources_1/new/test_env.vhd:48]
+WARNING: [Synth 8-3917] design test_env has port led[12] driven by constant 0
+WARNING: [Synth 8-3917] design test_env has port led[11] driven by constant 0
+WARNING: [Synth 8-3917] design test_env has port led[10] driven by constant 0
+WARNING: [Synth 8-3917] design test_env has port led[9] driven by constant 0
+WARNING: [Synth 8-3331] design rx_fsm has unconnected port rx_data[7]
+WARNING: [Synth 8-3331] design rx_fsm has unconnected port rx_data[6]
+WARNING: [Synth 8-3331] design rx_fsm has unconnected port rx_data[5]
+WARNING: [Synth 8-3331] design rx_fsm has unconnected port rx_data[4]
+WARNING: [Synth 8-3331] design rx_fsm has unconnected port rx_data[3]
+WARNING: [Synth 8-3331] design rx_fsm has unconnected port rx_data[2]
+WARNING: [Synth 8-3331] design rx_fsm has unconnected port rx_data[1]
+WARNING: [Synth 8-3331] design rx_fsm has unconnected port rx_data[0]
+WARNING: [Synth 8-3331] design test_env has unconnected port sw[15]
+WARNING: [Synth 8-3331] design test_env has unconnected port sw[14]
+WARNING: [Synth 8-3331] design test_env has unconnected port sw[13]
+WARNING: [Synth 8-3331] design test_env has unconnected port sw[12]
+WARNING: [Synth 8-3331] design test_env has unconnected port sw[11]
+WARNING: [Synth 8-3331] design test_env has unconnected port sw[10]
+WARNING: [Synth 8-3331] design test_env has unconnected port sw[9]
+WARNING: [Synth 8-3331] design test_env has unconnected port sw[8]
+WARNING: [Synth 8-3331] design test_env has unconnected port sw[7]
+WARNING: [Synth 8-3331] design test_env has unconnected port sw[6]
+WARNING: [Synth 8-3331] design test_env has unconnected port sw[5]
+WARNING: [Synth 8-3331] design test_env has unconnected port sw[4]
+WARNING: [Synth 8-3331] design test_env has unconnected port sw[3]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:35 ; elapsed = 00:00:48 . Memory (MB): peak = 789.520 ; gain = 579.125
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:35 ; elapsed = 00:00:48 . Memory (MB): peak = 789.520 ; gain = 579.125
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7a35tcpg236-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-141] Inserted 4 OBUFs to IO ports without IO buffers.
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [D:/Desktop/Computer Science year 2 sem II/VHDL programs/OneDrive-2017-05-03/mipsGYT/test_env.srcs/constrs_1/new/Basys3_test_env.xdc]
+Finished Parsing XDC File [D:/Desktop/Computer Science year 2 sem II/VHDL programs/OneDrive-2017-05-03/mipsGYT/test_env.srcs/constrs_1/new/Basys3_test_env.xdc]
+Completed Processing XDC Constraints
+
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+RTL Elaboration Complete:  : Time (s): cpu = 00:00:48 ; elapsed = 00:01:00 . Memory (MB): peak = 1095.676 ; gain = 885.281
+22 Infos, 37 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:18 ; elapsed = 00:00:18 . Memory (MB): peak = 1095.676 ; gain = 340.785
+exit
+INFO: [Common 17-206] Exiting Vivado at Wed May 24 22:12:45 2017...

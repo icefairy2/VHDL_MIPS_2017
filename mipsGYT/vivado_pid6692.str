@@ -1,0 +1,323 @@
+/*
+
+Vivado v2016.4 (64-bit)
+SW Build 1756540 on Mon Jan 23 19:11:23 MST 2017
+Process ID: 6692
+
+Current time: 	4/20/17 7:08:00 AM GMT-02:00
+Time zone: 	GMT-02:00 (GMT-02:00)
+
+OS: Windows 10
+Version: 10.0
+Architecture: amd64
+Available processors (cores): 4
+
+Screen size: 1920x1080
+Screen resolution (DPI): 96
+Available screens: 1
+Default font: family=Tahoma,name=Tahoma,style=plain,size=11
+
+Java version: 	1.8.0_66 64-bit
+Java home: 	C:/Xilinx/Vivado/2016.4/tps/win64/jre
+
+User name: 	student
+User home directory: C:/Users/Student
+User working directory: C:/Users/Student/Downloads/mipsGYT
+User country: 	US
+User language: 	en
+User locale: 	en_US
+
+RDI base root directory: C:/Xilinx/Vivado
+RDI data directory: C:/Xilinx/Vivado/2016.4/data
+RDI bin directory: C:/Xilinx/Vivado/2016.4/bin
+
+Vivado preferences path: C:/Users/Student/AppData/Roaming/Xilinx/Vivado/2016.4/vivado.ini
+Vivado layouts directory: C:/Users/Student/AppData/Roaming/Xilinx/Vivado/2016.4/layouts
+
+GUI allocated memory:	211 MB
+GUI max memory:		3,052 MB
+Engine allocated memory: 458 MB
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// bt:g (cd:JFrame):  Open Project : addNotify
+// Opening Vivado Project: C:\Users\Student\Downloads\mipsGYT\test_env.xpr. Version: Vivado v2016.4 
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: FILE_SET_NEW
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_NEW
+// Tcl Message: open_project C:/Users/Student/Downloads/mipsGYT/test_env.xpr 
+// Tcl Message: INFO: [Project 1-313] Project file moved from 'C:/Users/student/Desktop/test_env' since last save. 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified 
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 75 MB (+76270kb) [00:00:04]
+// [Engine Memory]: 447 MB (+317078kb) [00:00:04]
+// Tcl Message: INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2016.4/data/ip'. 
+// Project name: test_env; location: C:/Users/Student/Downloads/mipsGYT; part: xc7a35tcpg236-1
+dismissDialog("Open Project"); // bt:g (cd:JFrame)
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// HMemoryUtils.trashcanNow. Engine heap size: 468 MB. GUI used memory: 36 MB. Current time: 4/20/17 7:08:02 AM GMT-02:00
+// [Engine Memory]: 470 MB (+372kb) [00:00:14]
+// Elapsed time: 29 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, test_env - Behavioral (test_env.vhd)]", 1, true); // y:i (D:JPanel, cd:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, test_env - Behavioral (test_env.vhd)]", 1, true, false, false, false, false, true); // y:i (D:JPanel, cd:JFrame) - Double Click - Node
+// HMemoryUtils.trashcanNow. Engine heap size: 488 MB. GUI used memory: 37 MB. Current time: 4/20/17 7:08:32 AM GMT-02:00
+// [Engine Memory]: 497 MB (+3891kb) [00:00:39]
+// Elapsed time: 84 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Run Synthesis]", 17, false); // u:K (t:D, cd:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_RUN_SYNTHESIS
+selectButton("PAResourceQtoS.RunRun_TASK_ALREADY_RUNNING_WOULD_YOU_LIKE_Cancel", "Cancel"); // BasicOptionPaneUI$ButtonFactory:JButton (JPanel:JComponent, F:JDialog)
+// Elapsed time: 88 seconds
+selectTreeTable(PAResourceEtoH.ExpRunTreePanel_EXP_RUN_TREE_TABLE, "impl_1 ; constrs_1 ; Implementation Out-of-date ;  ;  ;  ;  ;  ;  ; 0 ;  ;  ;  ;  ;  ; Fri Apr 14 04:17:06 GMT-02:00 2017 ; 00:00:00 ; Vivado Implementation Defaults (Vivado Implementation 2014) ; xc7a35tcpg236-1 ; Vivado Implementation Defaults", 1, "impl_1", 0, false); // T:ab (JViewport:JComponent, cd:JFrame)
+// PAPropertyPanels.initPanels (impl_1) elapsed time: 0.7s
+selectButton(PAResourceQtoS.StateMonitor_CANCEL, "Cancel"); // a:JButton (p:JPanel, cd:JFrame)
+// aO:g (cd:JFrame): Cancel Implementation: addNotify
+selectButton(PAResourceQtoS.StateMonitor_RESET_RUN, "Reset Run"); // a:JButton (JPanel:JComponent, aO:g)
+// bt:g (cd:JFrame):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+dismissDialog("Cancel Implementation"); // aO:g (cd:JFrame)
+// TclEventType: RUN_RESET
+// Tcl Message: reset_run impl_1 
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+dismissDialog("Resetting Runs"); // bt:g (cd:JFrame)
+// HMemoryUtils.trashcanNow. Engine heap size: 515 MB. GUI used memory: 41 MB. Current time: 4/20/17 7:11:42 AM GMT-02:00
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Run Synthesis]", 17, false); // u:K (t:D, cd:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_RUN_SYNTHESIS
+// bt:g (cd:JFrame):  Resetting Runs : addNotify
+selectButton("PAResourceQtoS.RunRun_TASK_ALREADY_RUNNING_WOULD_YOU_LIKE_OK", "OK"); // BasicOptionPaneUI$ButtonFactory:JButton (JPanel:JComponent, F:JDialog)
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// Tcl Message: reset_run synth_1 
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// bt:g (cd:JFrame):  Starting Design Runs : addNotify
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs synth_1 -jobs 2 
+// Tcl Message: [Thu Apr 20 07:11:46 2017] Launched synth_1... Run output will be captured here: C:/Users/Student/Downloads/mipsGYT/test_env.runs/synth_1/runme.log 
+// 'k' command handler elapsed time: 3 seconds
+dismissDialog("Starting Design Runs"); // bt:g (cd:JFrame)
+// [GUI Memory]: 80 MB (+1076kb) [00:04:01]
+// Elapsed time: 16 seconds
+collapseTreeTable(PAResourceEtoH.ExpRunTreePanel_EXP_RUN_TREE_TABLE, "synth_1 ; constrs_1 ; Running synth_design... ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ; Thu Apr 20 07:11:56 GMT-02:00 2017 ; 00:00:00 ; Vivado Synthesis Defaults (Vivado Synthesis 2014) ; xc7a35tcpg236-1 ; Vivado Synthesis Defaults", 0); // T:ab (JViewport:JComponent, cd:JFrame)
+// TclEventType: RUN_COMPLETED
+// WARNING: HTimer (ActiveMsgMonitor Process Messages Timer) is taking too long to process. Increasing delay to 2000 ms.
+// [GUI Memory]: 84 MB (+369kb) [00:05:09]
+// Elapsed time: 65 seconds
+selectCodeEditor("test_env.vhd", 264, 303, false, false, false, true, false); // bF:I (JPanel:JComponent, cd:JFrame) - Popup Trigger
+selectCodeEditor("test_env.vhd", 208, 236); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 39 seconds
+selectCodeEditor("test_env.vhd", 268, 279); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 16 seconds
+selectCodeEditor("test_env.vhd", 320, 398); // bF:I (JPanel:JComponent, cd:JFrame)
+// [Engine Memory]: 523 MB (+1178kb) [00:07:24]
+// Elapsed time: 114 seconds
+selectCodeEditor("test_env.vhd", 341, 195); // bF:I (JPanel:JComponent, cd:JFrame)
+// [GUI Memory]: 89 MB (+597kb) [00:09:07]
+// Elapsed time: 81 seconds
+selectCodeEditor("test_env.vhd", 106, 414); // bF:I (JPanel:JComponent, cd:JFrame)
+typeControlKey((HResource) null, "test_env.vhd", 'c'); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("test_env.vhd", 202, 379); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("test_env.vhd", 305, 313); // bF:I (JPanel:JComponent, cd:JFrame)
+typeControlKey((HResource) null, "test_env.vhd", 'v'); // bF:I (JPanel:JComponent, cd:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// HMemoryUtils.trashcanNow. Engine heap size: 536 MB. GUI used memory: 42 MB. Current time: 4/20/17 7:17:43 AM GMT-02:00
+// Elapsed time: 39 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 25, false); // u:K (t:D, cd:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// bt:g (cd:JFrame):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+dismissDialog("Resetting Runs"); // bt:g (cd:JFrame)
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 2 
+// Tcl Message: [Thu Apr 20 07:18:19 2017] Launched synth_1... Run output will be captured here: C:/Users/Student/Downloads/mipsGYT/test_env.runs/synth_1/runme.log [Thu Apr 20 07:18:19 2017] Launched impl_1... Run output will be captured here: C:/Users/Student/Downloads/mipsGYT/test_env.runs/impl_1/runme.log 
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_COMPLETED
+// Elapsed time: 456 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Open Hardware Manager]", 26, true); // u:K (t:D, cd:JFrame) - Node
+// Run Command: PAResourceCommand.PACommandNames_OPEN_HARDWARE_MANAGER
+// Tcl Command: 'rdi::info_commands get_hw_probes'
+// Tcl Command: 'load_features labtools'
+// TclEventType: LOAD_FEATURE
+// TclEventType: HW_SESSION_OPEN
+// [Engine Memory]: 554 MB (+4981kb) [00:18:00]
+// Tcl Message: open_hw 
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Hardware Manager, Open Target]", 27, false); // u:K (t:D, cd:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_OPEN_HW_TARGET
+// HMemoryUtils.trashcanNow. Engine heap size: 556 MB. GUI used memory: 48 MB. Current time: 4/20/17 7:25:58 AM GMT-02:00
+selectButton(PAResourceOtoP.ProgramDebugTab_OPEN_TARGET, "Open target"); // h:k (JPanel:JComponent, cd:JFrame)
+selectMenu(PAResourceOtoP.ProgramDebugTab_OPEN_RECENTLY_OPENED_TARGET, "Recent Targets"); // Y:JMenu (ah:JPopupMenu, cd:JFrame)
+selectMenuItem(PAResourceCommand.PACommandNames_OPEN_TARGET_WIZARD, "Open New Target..."); // ab:JMenuItem (ah:JPopupMenu, cd:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_OPEN_TARGET_WIZARD
+// as:g (cd:JFrame): Open New Hardware Target: addNotify
+selectButton("NEXT", "Next >"); // JButton:AbstractButton (ButtonPanel:JPanel, as:g)
+// bt:g (as:g):  Open Server : addNotify
+// TclEventType: HW_SERVER_UPDATE
+// TclEventType: HW_TARGET_CHANGE
+// bt:g (as:g):  Open Target : addNotify
+// TclEventType: HW_TARGET_CHANGE
+// TclEventType: HW_TARGET_CLOSE
+dismissDialog("Open Server"); // bt:g (as:g)
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_ADD
+// TclEventType: HW_TARGET_UPDATE
+// TclEventType: HW_TARGET_CLOSE
+// TclEventType: HW_SYSMON_DELETE
+// TclEventType: HW_TARGET_UPDATE
+// TclEventType: DEBUG_PROBE_DELETE
+selectButton("NEXT", "Next >"); // JButton:AbstractButton (ButtonPanel:JPanel, as:g)
+dismissDialog("Open Target"); // bt:g (as:g)
+selectButton("NEXT", "Next >"); // JButton:AbstractButton (ButtonPanel:JPanel, as:g)
+// bt:g (as:g):  Open Hardware Target : addNotify
+// TclEventType: HW_OBJECT_DELETE
+// TclEventType: HW_SERVER_CLOSE
+// Tcl Message: disconnect_hw_server localhost:3121 
+// TclEventType: HW_SERVER_UPDATE
+// Tcl Message: connect_hw_server -url localhost:3121 
+// Tcl Message: INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121 
+// Tcl Message: current_hw_target [get_hw_targets */xilinx_tcf/Digilent/210183715119A] 
+// TclEventType: HW_TARGET_CHANGE
+// Tcl Message: set_property PARAM.FREQUENCY 15000000 [get_hw_targets */xilinx_tcf/Digilent/210183715119A] 
+// TclEventType: HW_TARGET_CHANGE
+// TclEventType: HW_TARGET_CLOSE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_ADD
+// TclEventType: HW_TARGET_UPDATE
+// Tcl Message: open_hw_target 
+// Tcl Message: INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210183715119A 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {C:/Users/Student/Downloads/mipsGYT/test_env.runs/impl_1/test_env.bit} [lindex [get_hw_devices xc7a35t_0] 0] 
+// Tcl Message: current_hw_device [lindex [get_hw_devices xc7a35t_0] 0] 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a35t_0] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+// [Engine Memory]: 648 MB (+70334kb) [00:18:13]
+selectButton("FINISH", "Finish"); // JButton:AbstractButton (ButtonPanel:JPanel, as:g)
+// 'A' command handler elapsed time: 8 seconds
+dismissDialog("Open Hardware Target"); // bt:g (as:g)
+dismissDialog("Open New Hardware Target"); // as:g (cd:JFrame)
+selectButton(PAResourceOtoP.ProgramDebugTab_PROGRAM_DEVICE, "Program device"); // h:k (JPanel:JComponent, cd:JFrame)
+selectButton(PAResourceOtoP.ProgramDebugTab_PROGRAM_DEVICE, "Program device"); // h:k (JPanel:JComponent, cd:JFrame)
+selectMenuItem((HResource) null, "xc7a35t_0"); // ab:JMenuItem (ah:JPopupMenu, cd:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+// be:aj (cd:JFrame): Program Device: addNotify
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a:JButton (JPanel:JComponent, be:aj)
+// bt:g (cd:JFrame):  Program Device : addNotify
+// TclEventType: HW_DEVICE_CHANGE
+dismissDialog("Program Device"); // be:aj (cd:JFrame)
+// Tcl Message: set_property PROBES.FILE {} [lindex [get_hw_devices xc7a35t_0] 0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {C:/Users/Student/Downloads/mipsGYT/test_env.runs/impl_1/test_env.bit} [lindex [get_hw_devices xc7a35t_0] 0] 
+// Tcl Message: program_hw_devices [lindex [get_hw_devices xc7a35t_0] 0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-3164] End of startup status: HIGH 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+// 'B' command handler elapsed time: 3 seconds
+dismissDialog("Program Device"); // bt:g (cd:JFrame)
+// Elapsed time: 157 seconds
+selectCodeEditor("test_env.vhd", 719, 41); // bF:I (JPanel:JComponent, cd:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 41 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Implementation, Run Implementation]", 21, false); // u:K (t:D, cd:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_RUN_IMPLEMENTATION
+// [GUI Memory]: 96 MB (+2517kb) [00:21:44]
+// bt:g (cd:JFrame):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+// bt:g (cd:JFrame):  Starting Design Runs : addNotify
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 -jobs 2 
+// Tcl Message: [Thu Apr 20 07:29:40 2017] Launched synth_1... Run output will be captured here: C:/Users/Student/Downloads/mipsGYT/test_env.runs/synth_1/runme.log [Thu Apr 20 07:29:40 2017] Launched impl_1... Run output will be captured here: C:/Users/Student/Downloads/mipsGYT/test_env.runs/impl_1/runme.log 
+dismissDialog("Starting Design Runs"); // bt:g (cd:JFrame)
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_COMPLETED
+// HMemoryUtils.trashcanNow. Engine heap size: 669 MB. GUI used memory: 49 MB. Current time: 4/20/17 7:36:44 AM GMT-02:00
+// WARNING: HSwingWorker (Monitor File Timestamp Swing Worker) is taking too long to process. Increasing delay to 2000 ms.
+// [GUI Memory]: 101 MB (+456kb) [00:40:15]
+// Elapsed time: 1334 seconds
+selectCodeEditor("test_env.vhd", 41, 469); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 59 seconds
+selectCodeEditor("test_env.vhd", 15, 442); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 14 seconds
+selectCodeEditor("test_env.vhd", 11, 431); // bF:I (JPanel:JComponent, cd:JFrame)
+selectButton(RDIResourceCommand.RDICommands_LINE_COMMENT, (String) null); // y:JideButton (g:CommandBar, cd:JFrame)
+selectCodeEditor("test_env.vhd", 316, 353); // bF:I (JPanel:JComponent, cd:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 25, false); // u:K (t:D, cd:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// bt:g (cd:JFrame):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+dismissDialog("Resetting Runs"); // bt:g (cd:JFrame)
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 2 
+// Tcl Message: [Thu Apr 20 07:53:17 2017] Launched synth_1... Run output will be captured here: C:/Users/Student/Downloads/mipsGYT/test_env.runs/synth_1/runme.log [Thu Apr 20 07:53:17 2017] Launched impl_1... Run output will be captured here: C:/Users/Student/Downloads/mipsGYT/test_env.runs/impl_1/runme.log 
+// TclEventType: RUN_COMPLETED
+// [GUI Memory]: 108 MB (+1398kb) [00:45:52]
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_COMPLETED
+// HMemoryUtils.trashcanNow. Engine heap size: 669 MB. GUI used memory: 50 MB. Current time: 4/20/17 8:06:44 AM GMT-02:00
+// HMemoryUtils.trashcanNow. Engine heap size: 669 MB. GUI used memory: 47 MB. Current time: 4/20/17 8:36:44 AM GMT-02:00
